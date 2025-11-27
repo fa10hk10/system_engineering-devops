@@ -1,0 +1,3 @@
+#!/bin/bash
+# Rename the file 'hello' to 'hello_renamed'
+mv hello hello_renamed
