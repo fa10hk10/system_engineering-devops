@@ -1,2 +1,3 @@
 #!/bin/bash
-ls -a
+# List all files in the current directory with detailed info
+ls -l
