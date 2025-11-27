@@ -1,0 +1,3 @@
+#!/bin/bash
+# Move the file 'hello' to the parent directory
+mv hello ../
