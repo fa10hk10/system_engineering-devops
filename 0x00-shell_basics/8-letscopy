@@ -1,3 +1,0 @@
-#!/bin/bash
-# Copy the file 'hello' back to the current directory
-cp ../hello .
