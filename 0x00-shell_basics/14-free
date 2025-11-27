@@ -1,0 +1,3 @@
+#!/bin/bash
+# Display free and used memory
+free
