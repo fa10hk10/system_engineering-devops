@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
-# This script runs infinitely and handles SIGTERM
 
-trap 'echo "I am invincible!!!";' SIGTERM
+# Trap SIGTERM (signal 15) and print the message, then continue the script.
+# The 'trap' command sets up a signal handler.
+trap 'echo "I am invincible!!!"' SIGTERM
 
+# Start an infinite loop.
 while true
 do
     echo "To infinity and beyond"
