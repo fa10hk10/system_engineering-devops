@@ -1,4 +1,8 @@
 #!/usr/bin/env bash
-# This script kills the 7-highlander process using SIGKILL
+# This script sends SIGTERM to the 7-highlander process
 
-kill -9 "$(pgrep -f 7-highlander)"
+pid=$(pgrep -f "./7-highlander")
+
+if [ -n "$pid" ]; then
+    kill -SIGTERM "$pid"
+fi
