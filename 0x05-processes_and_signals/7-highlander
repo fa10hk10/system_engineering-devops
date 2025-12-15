@@ -1,8 +1,7 @@
 #!/usr/bin/env bash
-# This script runs infinitely and handles SIGTERM
+# Runs indefinitely and handles SIGTERM
 
-trap 'echo "I am invincible!!!"; continue' SIGTERM
-
+trap 'echo "I am invincible!!!"' SIGTERM
 
 while true
 do
